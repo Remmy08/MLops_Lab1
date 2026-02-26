@@ -51,7 +51,7 @@ def clear_data():
     return True
 
 # Создание DAG
-dag_cars = DAG(
+dag_insurance = DAG(
     dag_id="train_insurance_pipe",
     start_date=datetime(2025, 2, 3),
     concurrency=4,
